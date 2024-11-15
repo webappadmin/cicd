@@ -1,4 +1,4 @@
-# Starter pipeline
+a# Starter pipeline
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
@@ -24,7 +24,7 @@ steps:
     subscriptionId: 'b4242eb1-5e7e-4948-ab48-97b52f612d0e'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'DevOpsExpert-Dev1'
-    location: 'Central US'
+    location: 'East US'
     templateLocation: 'URL of the file'
     overrideParameters: 'projectName cicd'
     deploymentMode: 'Incremental'
